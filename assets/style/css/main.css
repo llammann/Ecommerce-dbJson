@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: rgb(10, 135, 132);
+  background: linear-gradient(135deg, rgb(10, 135, 132) 7%, rgb(72, 72, 213) 94%);
+}
+nav .right p a {
+  text-decoration: none;
+  color: black;
+}
+nav logo .img_wrapper {
+  width: 40px;
+  height: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: red;
+}
+nav img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.basketed_items {
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+.basketed_items .basketed_item {
+  background-color: rgb(61, 61, 54);
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px;
+}
+.basketed_items .basketed_item .item_count {
+  font-size: 28px;
+}
+.basketed_items .basketed_item .remove_item {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.basketed_items .basketed_item .item_img_wrapper {
+  width: 30%;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.basketed_items .basketed_item .item_img_wrapper img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.result_section {
+  background-color: rgb(198, 213, 177);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 25px 25px;
+}
+.result_section .remove_all, .result_section .last_total {
+  font-size: 30px;
+}
+
+.basket_head_article {
+  border-radius: 25px 25px 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cards,
+.meals_cards,
+.basketed_card,
+.detailied_singer, .detailed_meal button {
+  background-color: transparent;
+  border: none;
+}
+
+.img_wrapper {
+  height: 200px;
+  overflow: hidden;
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.search_singer,
+.search_food {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sort_by_name {
+  margin: 0 auto;
+}
+
+.sort_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-3 .buttons {
+  justify-content: space-between;
+}
+
+.detail_btn a {
+  text-decoration: none;
+}
+
+.detailied_singer, .detailed_meal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailied_singer .buttons, .detailed_meal .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailied_singer .img_wrapper, .detailed_meal .img_wrapper {
+  height: 40%;
+}
+.detailied_singer .img_wrapper img, .detailed_meal .img_wrapper img {
+  height: 100%;
+}
+
+.my_card .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+.navbar .logo .img_wrapper {
+  width: 120px;
+  height: 50px;
+}
+.navbar .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.navbar .logo .login_btn {
+  text-decoration: none;
+}
+
+.my_card .buttons .fav_btn,
+.my_card .buttons .cart_btn,
+.my_detailied_card .buttons .fav_btn,
+.my_detailied_card .buttons .cart_btn {
+  border: none;
+  background-color: transparent;
+}
+
+.basket_container {
+  background-color: rgb(135, 207, 182);
+}
+.basket_container .basket_head_article {
+  background-color: rgb(198, 213, 177);
+  text-align: center;
+}
+.basket_container .basketed_items {
+  background-color: azure;
+}
+
+.form_container {
+  background-color: rgb(230, 217, 217);
+  border-radius: 8px;
+  width: 40%;
+}/*# sourceMappingURL=main.css.map */

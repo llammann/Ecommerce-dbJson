@@ -1,0 +1,192 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "name": "Adele",
+      "imagelink": "https://th.bing.com/th/id/OIP.GMIEG13h93VOG4QAhpfqrQHaEL?w=288&h=180&c=7&r=0&o=5&pid=1.7",
+      "age": "33",
+      "nationality": "British",
+      "genre": "Pop"
+    },
+    {
+      "id": 2,
+      "name": "Beyonce",
+      "imagelink": "https://th.bing.com/th/id/OIP.-q2wJQRmFKm1UUm_jvCz9QHaFj?w=256&h=192&c=7&r=0&o=5&pid=1.7",
+      "age": "40",
+      "nationality": "American",
+      "genre": "R&B"
+    },
+    {
+      "id": 3,
+      "name": "Edd Sheeran",
+      "imagelink": "https://th.bing.com/th/id/OIP.SKcuHaCtSZmG_hcgv3inDQHaGc?w=219&h=190&c=7&r=0&o=5&pid=1.7",
+      "age": "31",
+      "nationality": "British",
+      "genre": "Pop"
+    },
+    {
+      "id": 4,
+      "name": "The Weeknd",
+      "imagelink": "https://th.bing.com/th/id/R.ac099d7c88ed62bcfcd010c3a68f37af?rik=aYARuk62pvfXQA&pid=ImgRaw&r=0",
+      "age": "33",
+      "nationality": "Canadian",
+      "genre": "R&B"
+    },
+    {
+      "id": 5,
+      "name": "Kanye West",
+      "imagelink": "https://th.bing.com/th/id/OIP.4Upxde_22S1K1pmEoNbJhwHaEK?pid=ImgDet&rs=1",
+      "age": "46",
+      "nationality": "American",
+      "genre": "R&B"
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "name": "Sushi",
+      "price": 15.99,
+      "ingredients": [
+        "Rice",
+        "Fish(e.g,salmon,tuna)",
+        "Seaweed",
+        "Soy Sauce",
+        "Wasabi",
+        "Pickled Ginger"
+      ],
+      "imageLink": "https://th.bing.com/th/id/OIP.cOiUqe84m90EJQ1-VSy9swHaE8?w=301&h=201&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": 2,
+      "name": "Spaghetti Carbonara",
+      "price": 12.99,
+      "ingredients": [
+        "Pasta",
+        "Pancetta or Guanciale",
+        "Eggs",
+        "Parmesan Cheese",
+        "Black Pepper"
+      ],
+      "imageLink": "https://th.bing.com/th/id/OIP.WbOA8pnHfnC82PsHsFuypwHaFi?w=282&h=211&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": 3,
+      "name": "Burger",
+      "price": 8.99,
+      "ingredients": [
+        "Beef Patty",
+        "Bun",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Ketchup",
+        "Mustard"
+      ],
+      "imageLink": "https://th.bing.com/th/id/OIP.R5UPva7E315gxahQdEybBwHaFj?w=241&h=181&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Alfredo",
+      "price": 14.99,
+      "ingredients": [
+        "Fettuccine Pasta",
+        "Chicken",
+        "Alfredo Sauce",
+        "Parmesan Cheese",
+        "Garlic",
+        "Butter"
+      ],
+      "imageLink": "https://th.bing.com/th/id/OIP.wE39qESzlq6oYOcFVPItpgHaLH?w=198&h=297&c=7&r=0&o=5&pid=1.7"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "john123",
+      "email": "john@email.com",
+      "balance": "200",
+      "password": "john123@",
+      "order": []
+    },
+    {
+      "id": 2,
+      "username": "sarah22",
+      "email": "sarah.email.com",
+      "balance": "150",
+      "password": "sarah22@",
+      "order": []
+    },
+    {
+      "id": 3,
+      "username": "david89",
+      "email": "david.email.com",
+      "balance": "300",
+      "password": "david89@",
+      "order": []
+    },
+    {
+      "id": 4,
+      "username": "michael77",
+      "email": "michael.email.com",
+      "balance": "250",
+      "password": "michael77@",
+      "order": []
+    },
+    {
+      "username": "kuyi8r7",
+      "password": "7y66r",
+      "emai": "jooooooohn@email.com",
+      "balance": "6789463",
+      "id": 5
+    },
+    {
+      "username": "laman123",
+      "password": "laman123@",
+      "emai": "laman@email.com",
+      "balance": "1000",
+      "id": 6
+    },
+    {
+      "username": "emma11",
+      "password": "emma11@",
+      "emai": "emma@email.com",
+      "balance": "3333",
+      "id": 7
+    },
+    {
+      "username": "samaya123",
+      "password": "samaya123@",
+      "emai": "samaya@email.com",
+      "balance": "9999",
+      "id": 8
+    },
+    {
+      "username": "jane123",
+      "password": "jane123@",
+      "emai": "jane@email.com",
+      "balance": "7777",
+      "id": 11
+    },
+    {
+      "username": "bbb123",
+      "password": "bbb123@",
+      "emai": "bbb@email.com",
+      "balance": "1111",
+      "id": 15
+    },
+    {
+      "username": "xavier123",
+      "password": "xavier123@",
+      "emai": "xavier@email.com",
+      "balance": "8888",
+      "id": 18
+    },
+    {
+      "username": "et4watg",
+      "password": "aegesr",
+      "emai": "snbfdz@email.com",
+      "balance": "356",
+      "id": 19
+    }
+  ]
+}

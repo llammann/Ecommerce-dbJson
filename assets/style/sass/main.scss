@@ -1,0 +1,19 @@
+@import "./abstracts/_extends.scss";
+@import "./abstracts/_mixins.scss";
+@import "./abstracts/_variables.scss";
+
+@import "./base/_reset.scss";
+@import "./base/_typography.scss";
+@import "./base/responsibility";
+
+@import "./components/_buttons.scss";
+
+@import "./layout/_footer.scss";
+@import "./layout/navbar";
+@import "./layout/basket";
+
+@import "./pages/home";
+
+// body {
+//   background-color: red;
+// }
